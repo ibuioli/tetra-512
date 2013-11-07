@@ -2,9 +2,11 @@ public class Estructura {
   int x, y, idx;
   float mueveX, mueveY, xp, yp, vx, vy;
 
-  color elegido = colorAzar();
+  color elegido;
 
   Estructura(int xp_, int yp_, int idx_) {
+    elegido = colorAzar();
+    
     xp = xp_;
     yp = yp_;
     x = xp_;
